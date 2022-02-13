@@ -17,28 +17,28 @@
 					<div class="form sign-up">
 						<div class="input-group">
 							<i class='bx bxs-user'></i>
-							<input type="text" placeholder="Username">
+							<input type="text" placeholder="Username" id ='sign-up-username'>
 						</div>
 						<div class="input-group">
 							<i class='bx bx-mail-send'></i>
-							<input type="email" placeholder="Email">
+							<input type="email" placeholder="Email" id ='sign-up-email'>
 						</div>
 						<div class="input-group">
 							<i class='bx bxs-lock-alt'></i>
-							<input type="password" placeholder="Password">
+							<input type="password" placeholder="Password" id ='sign-up-password'>
 						</div>
 						<div class="input-group">
 							<i class='bx bxs-lock-alt'></i>
-							<input type="password" placeholder="Confirm password">
+							<input type="password" placeholder="Confirm password" id ='sign-up-confirm-password'>
 						</div>
-						<button>
+						<button id ='sign-up-btn'>
 							Sign up
 						</button>
 						<p>
 							<span>
 								Already have an account?
 							</span>
-							<b onclick="toggle()" class="pointer">
+							<b id = 'toggle-1' class="pointer">
 								Sign in here
 							</b>
 						</p>
@@ -53,17 +53,17 @@
 					<div class="form sign-in">
 						<div class="input-group">
 							<i class='bx bxs-user'></i>
-							<input type="text" placeholder="Username">
+							<input type="text" placeholder="Username" id = 'sign-in-username'>
 						</div>
 						<div class="input-group">
 							<i class='bx bxs-lock-alt'></i>
-							<input type="password" placeholder="Password">
+							<input type="password" placeholder="Password" id = 'sign-in-password'>
 						</div>
-						<button>
+						<button id = 'sign-in-btn'>
 							Sign in
 						</button>
 						<p>
-							<b>
+							<b id = 'forgot-pass'>
 								Forgot password?
 							</b>
 						</p>
@@ -71,7 +71,7 @@
 							<span>
 								Don't have an account?
 							</span>
-							<b onclick="toggle()" class="pointer">
+							<b  id = 'toggle-2'class="pointer">
 								Sign up here
 							</b>
 						</p>
@@ -115,6 +115,6 @@
 		</div>
 		<!-- END CONTENT SECTION -->
 	</div>
-    <script src="code.js"></script>
+    <script src="code.js" type="module"></script>
 </body>
 </html>

@@ -116,6 +116,9 @@ body {
     flex-direction: column;
 }
 
+#forgot-pass {
+    cursor: pointer;
+}
 .social-list {
     margin: 2rem 0;
     padding: 1rem;
